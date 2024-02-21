@@ -446,9 +446,9 @@ address{
 .hero-title {
     color: #FFF;
     text-align: center;
-    font-size: 36px;
+    font-size: 56px;
     font-weight: 700;
-    line-height: 1.11;
+    line-height: 1.07; 
     letter-spacing: 0.02em;
     margin-bottom: 48px;
     max-width: 496px;
@@ -482,10 +482,6 @@ address{
     margin-right: auto;
     transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 } 
-
-@media screen and (min-width: 768px){
-    
-}
 /* ---------------/----------------- */
 /* ------------------Features----------- */
 .features {
@@ -589,7 +585,6 @@ address{
 }
 
 @media screen and (min-width: 1158px) {
-    }
     .features {
     padding: 120px 0;
 }  
@@ -610,7 +605,7 @@ address{
         border: #8E8F99;
         background:#F4F4FD;
         margin-bottom: 8px;
-        flex-shrink: 0;     
+        flex-shrink: 0;
     }
     .features-soc-icon{
         width: 64px;
@@ -723,7 +718,6 @@ margin-top: 8px;
         padding-right: 108px;
         } 
         .taste{
-            
         }
         .taste-list{
             flex-direction: row;
@@ -736,9 +730,7 @@ margin-top: 8px;
  }
 
  @media screen and (min-width: 1158px){
-    .taste{
-        
-    }
+    
  }
 }
 
