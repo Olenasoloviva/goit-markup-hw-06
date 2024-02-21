@@ -47,7 +47,6 @@ address{
 @media screen  and (min-width: 768px) {
     .container{
         max-width: 768px;
-        
     } 
 }
  @media screen and (min-width: 1158px) {
@@ -205,7 +204,6 @@ address{
     }
     .features-soc{
         display: flex;
-        display: none;
         align-items: center;
         justify-content: center;
         width: 264px;
@@ -425,7 +423,7 @@ address{
 
 .features-soc{
     display: flex;
-   display: none;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 264px;
